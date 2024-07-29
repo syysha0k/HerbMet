@@ -21,6 +21,9 @@ This article presents HerbMet, an AI-based system for accurately identifying Chi
 ## Dataset
 We utilize d two publicly available metabolomics datasets on the roots for of 7 Panax ginseng species and the seeds of 3 Gleditsia sinensis varieties to develop and evaluate our AI models. For detailed information on the protocols for metabolite extraction and analysis using LC-Q-TOF, please refer to the original cited publications. Detailed metabolite extraction and analysis protocols using LC-Q-TOF can be found in the original publications cited. The main objective for this study was to address the current limitations of metabolomics data analysis. We briefly described the metabolomic datasets as follows: tThe Panax ginseng dataset  comprisesntains a total of 70 samples, includingwith 7 species, and with 10 samples per species. Each sample involves with 253-dimensional featuress, which. This can be represented as a 70×253 matrix. The Gleditsia sinensis dataset contains 45 samples divided, split into 3 categories, with 15 samples eachfor each type. The feature dimension of the Gleditsia sinensis dataset is much higher than that of the Panax ginseng onedataset, withand each sample containings 2,867-dimensional features. We defined a matrix with 45×2,867 matrix to represent the collected Gleditsia sinensis dataset. The details of these collected datasets are shown presented in Table S1 and Table S2,, respectively and the raw metabolomics data are incan be found in Data S1 and Data S2. 
 
+- Data-S1.csv: Processed metabolomics data for Panax ginseng used in this study.
+- Data-S2.csv: Processed metabolomics data for Gleditsia sinensis used in this study.
+
 ## Environment
 
 - The code is developed using python 3.10 on Ubuntu 20.04.
